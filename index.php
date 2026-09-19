@@ -5,6 +5,11 @@
 // Load the database connection.
 require_once('config/database.php');
 
+// Week 3 MVC Integration - Load controller classes.
+require_once('controller/CustomerController.php');
+require_once('controller/ComplaintController.php');
+require_once('controller/TechnicianController.php');
+
 ?>
 
 <!DOCTYPE html>
